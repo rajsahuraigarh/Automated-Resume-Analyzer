@@ -128,7 +128,7 @@ def course_recommender(course_list):
 
 #CONNECT TO DATABASE
 
-connection = pymysql.connect(host='localhost',user='root',password='RAJ@12raj',db='cv')
+connection = pymysql.connect(host='localhost',user='root',password='**',db='**')
 cursor = connection.cursor()
 
 def insert_data(name,email,res_score,timestamp,no_of_pages,reco_field,cand_level,skills,recommended_skills,courses):
